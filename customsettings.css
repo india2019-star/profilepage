@@ -1,0 +1,218 @@
+body{
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    background-color:#be4038;
+   
+}
+
+#homenavbar{
+    background-color: #ffa500;
+    border: 0;
+    border-radius: 0;
+    padding: 20px;
+    font-size: 1.2em;
+    font-family: 'Lora', serif;
+}
+
+.navbar-brand span{
+    font-size: 1.5em;
+    font-family: 'Lora', serif;
+    color: #4837bc;
+    
+}
+.navbar-brand span:hover{
+    box-shadow: 0px 1px 5px 1px #ffffff;
+}
+
+#navlist span{
+    color: #4837bc;
+    margin-right: 5px;
+}
+
+
+
+
+#backgroundsetting
+{
+    background-image: url("https://www.pelvicpain.org.au/wp-content/uploads/2018/08/MyStory_Header.jpg");
+    height: 400px;
+    color: #fef1de;
+    
+    
+}
+
+
+#rowofcontents{
+    margin-top: 10px;
+    
+}
+
+#lifeslinestile, #mylifetile, #collegelifetile{
+    width:100%;
+    height: 250px;
+    position: relative;
+    border: 1px solid #be4038;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 80%;
+}
+
+#lifeslinestile{
+    background: url("imagesforprofile/imag2_1.jpg") no-repeat;
+    background-position: center;
+}
+
+#mylifetile{
+    background: url("https://images.pexels.com/photos/1151418/pexels-photo-1151418.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat;
+    background-position: center;
+}
+
+#collegelifetile{
+    background: url("https://inteng-storage.s3.amazonaws.com/img/iea/QjOdqMrLGd/sizes/industrial-engineer_resize_md.jpg") no-repeat;
+    background-position: center;
+}
+
+
+#lifeslinestile:hover, #mylifetile:hover, #collegelifetile:hover{
+   box-shadow: 0px 1px 5px 1px #ffffff;
+}
+
+
+#lifeslinestile span, #mylifetile span, #collegelifetile span{
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background: #061c2a;
+    opacity: 0.8;
+    font-size: 1.3em;
+    font-family: 'Lora', serif;
+}
+
+
+
+.panel-footer{
+    margin-top: 20px;
+    background: #133337;
+    color: #ffffff;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.3em;
+    
+}
+
+#content{
+    padding: 50px 50px 50px 20px;
+    
+    max-width:450px;
+    height: 150px;
+    margin-top: 10px;
+    
+    
+}
+
+
+
+
+#comment
+{
+    font-size: 40px;
+    font-family: cursive;
+    border-bottom: 2px solid black;
+}
+
+
+
+
+main
+{
+    min-height: calc(100vh - 72px - 52px);
+}
+
+
+@media(max-width:767px){
+    #backgroundsetting{
+        background-image: url("https://www.aspenridgelakewood.com/wp-content/uploads/2019/03/Dollarphotoclub_8ARR-my-addiction-story-1434514-Small.jpg");
+        width: auto;
+        overflow:hidden;
+        color: #fef1de;
+    }
+    
+    #content{
+        color: #ff7373;
+        margin-top: 100px;
+        background-color: #ffffff;
+        opacity: 0.6;
+        
+    }
+     li{
+        text-align: center;
+    }
+    
+    #lifeslinestile, #mylifetile, #collegelifetile{
+        width: 500px;
+        margin: 0 auto 15px;
+    }
+    
+   
+}
+@media(min-width:768px) and (max-width:991px){
+    #backgroundsetting{
+        background-image: url("https://www.aspenridgelakewood.com/wp-content/uploads/2019/03/Dollarphotoclub_8ARR-my-addiction-story-1434514-Small.jpg");
+        width: auto;
+        overflow:hidden;
+        color: #fef1de;
+    }
+     #content{
+        color: #ff7373;
+        margin-top: 100px;
+        background-color: #ffffff;
+        opacity: 0.6;
+        
+    }
+    
+}
+
+
+@media(min-width:992px) and (max-width:1140px){
+    #backgroundsetting{
+        background-image: url("https://www.aspenridgelakewood.com/wp-content/uploads/2019/03/Dollarphotoclub_8ARR-my-addiction-story-1434514-Small.jpg");
+        width: auto;
+        overflow:hidden;
+        color: #fef1de;
+    }
+     #content{
+        color: #ff7373;
+        margin-top: 100px;
+        background-color: #ffffff;
+        opacity: 0.6;
+        
+    }
+    
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #61122f;
+    
+}
+
+.navbar-header button.navbar-toggle{
+    clear: both;
+}
+
+#event{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-family: 'Lora', serif;
+    color: #E8EAF6;
+}
+
